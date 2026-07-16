@@ -1,0 +1,24 @@
+h1{
+    color: red;
+} 
+
+ p{
+    color:royalblue;
+}
+
+button{
+    color:green;
+    background-color: burlywood;
+}
+
+body{
+    background-color:lightpink;
+}
+
+ #heading1{
+    color: brown;
+} 
+
+.myclass{
+    color: gold;
+}
