@@ -1,0 +1,19 @@
+
+*{
+    font-family:'Times New Roman', Times, serif;
+}
+#one{
+    font-size: 25px;
+    line-height: 40px;
+}
+
+#three{
+    font-size: 11px;
+    text-transform: uppercase;
+}
+#outer{
+    font-size: 25px;
+}
+#inner{
+    font-size: 10px;
+}
