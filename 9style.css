@@ -1,0 +1,28 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#box1{
+    position: static;
+/* top right left dosent work with satic*/
+}
+#box2{
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+#box3{
+    position: absolute;
+    top: 10px;
+    /* here box3s ansistor is body tag  box 4 will be behid 3*/
+    /* position: sticky; moves along with text fixed to the screen  */
+}
+#box4{
+    position: fixed;
+    bottom: 20px;
+    /* accourding to full screen or browser */
+}
