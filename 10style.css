@@ -1,0 +1,22 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+#box1{
+    /* background-color: red; */
+    background-image: url("cssimg1.jpg");
+    /* background-size: cover; */
+    /* background-size: auto; */
+    background-size: contain;
+}
+#box2{
+    background-color: green;
+}
+#box3{
+background-color: aqua;
+}
+#box4{
+    background-color: pink;
+}
