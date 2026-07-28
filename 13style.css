@@ -1,0 +1,32 @@
+/* div{
+    background-color: pink;
+    display: flex;
+    justify-content:space-evenly ; 
+}*/
+
+a{
+    text-decoration: none;
+    color: red;
+}
+li{
+    list-style-type: none;
+    background-color: pink;
+}
+.navbar{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+}
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;    /* these three lines are imp for setting one div inside another */
+    align-items: center;
+}
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color:deeppink;
+}
