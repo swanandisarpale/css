@@ -1,0 +1,29 @@
+div{
+    height: 100px;
+    width: 50px;
+    background-color: pink;
+}
+@media (width:600px) {
+    div{
+        background-color: red;
+    }
+}
+/* when we will compress the size of screen to exactly 600px the colour becomes red */
+
+@media(min-width:600px){
+    div{
+        background-color: blueviolet;
+    }
+}
+@media(max-width:600px){
+    div{
+        background-color:darkorange;
+    }
+}
+
+
+@media(min-width:200px) and (max-width:300px){
+    div{
+        background-color:aqua;
+    }
+}
